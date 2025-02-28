@@ -1,11 +1,14 @@
-/* Header.css */
 .header {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 10px 20px;
+  border-bottom: 2px solid #ddd;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: white;
-  padding: 10px 20px;
-  border-bottom: 2px solid #ddd;
 }
 
 .header-content {
@@ -15,6 +18,7 @@
   align-items: center;
 }
 
+/* College Information */
 .college-info {
   display: flex;
   align-items: center;
@@ -26,16 +30,17 @@
 }
 
 .college-name {
-  font-size: 1.5em;
-  margin: 0;
+  font-size: 1.8em;
+  font-weight: bold;
   color: #0056b3;
 }
 
 .college-address {
-  margin: 0;
+  font-size: 1em;
   color: #555;
 }
 
+/* TNEA Code Section */
 .other-info {
   display: flex;
   align-items: center;

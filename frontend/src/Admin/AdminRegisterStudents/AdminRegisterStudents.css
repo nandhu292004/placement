@@ -1,0 +1,99 @@
+/* AdminRegisterStudents.css */
+
+.admin-dashboard {
+  width: 90%;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.search-container {
+  text-align: right;
+  margin-bottom: 10px;
+}
+
+.search-container input {
+  padding: 8px;
+  width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.admin-controls {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.admin-controls select,
+.admin-controls button {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.admin-controls button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+}
+
+.admin-controls button:hover {
+  background-color: #0056b3;
+}
+
+.display-register-students {
+  width: 100%;
+  border-collapse: collapse;
+  overflow-x: auto;
+  display: block;
+  max-width: 100%;
+}
+
+th, td {
+  border: 1px solid #0a0b0c;
+  padding: 8px;
+  text-align: left;
+  white-space: nowrap;
+}
+
+th {
+  background-color: #4895bf;
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Responsive Table */
+@media screen and (max-width: 768px) {
+  table {
+    display: block;
+    overflow-x: auto;
+  }
+
+  .admin-controls {
+    flex-direction: column;
+  }
+
+  .search-container {
+    text-align: center;
+  }
+
+  .search-container input {
+    width: 100%;
+  }
+}

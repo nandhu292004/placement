@@ -1,0 +1,197 @@
+/* Reset default margins and paddings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Full-screen background */
+/* body {
+  margin: 0;
+  padding: 0;
+  background: url('../../../assets/nec_banner.png') no-repeat center;
+  opacity: 1.0;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+
+/* Header styling */
+.header {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 10px 20px;
+  border-bottom: 2px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* College Information */
+.college-info {
+  display: flex;
+  align-items: center;
+}
+
+.college-logo {
+  width: 80px;
+  margin-right: 15px;
+}
+
+.college-name {
+  font-size: 1.8em;
+  font-weight: bold;
+  color: #0056b3;
+}
+
+.college-address {
+  font-size: 1em;
+  color: #555;
+}
+
+/* TNEA Code Section */
+.other-info {
+  display: flex;
+  align-items: center;
+}
+
+.tnea-code {
+  text-align: center;
+  margin-right: 15px;
+}
+
+.tnea-code p {
+  margin: 0;
+  font-size: 0.9em;
+  color: #555;
+}
+
+.tnea-code h2 {
+  margin: 5px 0 0;
+  font-size: 1.5em;
+  color: #0056b3;
+}
+
+.person-image {
+  width: 80px;
+  border-radius: 50%;
+}
+.banner{
+  width: 100%;
+  height: 900px;
+ 
+}
+/* Centering the Login Form */
+.container {
+  width: 400px;
+  background: rgba(255, 255, 255, 0.85); /* Semi-transparent background */
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Login Heading */
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Logo */
+.logo {
+  width: 80px;
+  display: block;
+  margin: 0 auto 10px;
+}
+
+/* Form Styling */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+/* Submit Button */
+button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background: green;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: darkgreen;
+}
+
+/* Footer text and link */
+p {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+p .link {
+  color: #007bff;
+  cursor: pointer;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+p .link:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 480px) {
+  .container {
+    width: 90%;
+    padding: 20px;
+  }
+
+  .header {
+    padding: 5px 10px;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .college-name {
+    font-size: 1.4em;
+  }
+}

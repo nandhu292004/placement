@@ -1,0 +1,36 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f8f8f8ac;
+  padding: 10px 20px;
+}
+
+.college-logo {
+  width: 80px;
+  margin-right: 15px;
+}
+
+.logo{
+  color: #333;
+  display: inline;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin: 0 15px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.icons {
+  font-size: 1.5rem;
+}
